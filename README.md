@@ -9,14 +9,14 @@ A URL Shortener web application built with Node.js, Express, MongoDB, and EJS. I
  URL validation and error handling
 
 🛠️ Tech Stack
- Backend: Node.js, Express.js
- Frontend: HTML, CSS, EJS
- Database: MongoDB with Mongoose
- Other Tools: nanoid or UUID for generating short codes
+Backend: Node.js, Express.js
+Frontend: HTML, CSS, EJS
+Database: MongoDB with Mongoose
+Other Tools: nanoid or UUID for generating short codes
 
 How It Works
- => The user enters a long URL.
- => A unique short code is generated and stored in the database along with the original URL.
- => The user receives a shortened version of the URL.
- => When someone accesses the short URL, the server looks it up and redirects to the original URL.
+The user enters a long URL.
+A unique short code is generated and stored in the database along with the original URL.
+The user receives a shortened version of the URL.
+When someone accesses the short URL, the server looks it up and redirects to the original URL.
 
